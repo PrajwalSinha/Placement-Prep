@@ -43,7 +43,7 @@ public:
 //         return res; 
         
         //optimal approach
-        map<int,int> mpp;
+        unordered_map<int,int> mpp;
         int rem;
         for(int i=0;i<nums.size();i++){
             rem = target - nums[i];
